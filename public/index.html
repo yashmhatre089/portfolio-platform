@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YASH MHATRE // AI & ML DEVELOPER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav-logo">
+    <span class="nav-bracket">[</span>
+    <span class="nav-name">YM</span>
+    <span class="nav-bracket">]</span>
+    <span class="nav-tag">// AI_DEV</span>
+  </div>
+  <div class="nav-links">
+    <a href="#about" class="nav-link">ABOUT</a>
+    <a href="#education" class="nav-link">EDUCATION</a>
+    <a href="#skills" class="nav-link">SKILLS</a>
+    <a href="#projects" class="nav-link">PROJECTS</a>
+    <a href="#certificates" class="nav-link">CERTS</a>
+    <a href="#timeline" class="nav-link">TIMELINE</a>
+    <a href="#contact" class="nav-link">CONTACT</a>
+    <a href="/admin" class="nav-admin">ADMIN</a>
+  </div>
+  <div class="nav-hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ── HERO ────────────────────────────────────────────────────────── -->
+<section class="hero" id="hero">
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="hero-grid"></div>
+  <div class="hero-scan"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">// INITIATING PROTOCOL //</div>
+    <div class="hero-bracket-top">
+      <span class="bracket-line"></span>
+      <span class="bracket-label">AGENT PROFILE LOADED</span>
+      <span class="bracket-line"></span>
+    </div>
+    <h1 class="hero-name" id="heroName">
+      <span class="hero-name-first">YASH</span>
+      <span class="hero-name-last">MHATRE</span>
+    </h1>
+    <div class="hero-divider">
+      <span class="divider-diamond">◆</span>
+    </div>
+    <div class="hero-role-wrap">
+      <span class="hero-role-prefix">&#47;&#47;</span>
+      <span class="hero-role" id="heroRole">AI &amp; MACHINE LEARNING DEVELOPER</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-val">5+</span>
+        <span class="stat-lbl">SEMESTERS</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="stat-val">3+</span>
+        <span class="stat-lbl">PROJECTS</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="stat-val">3+</span>
+        <span class="stat-lbl">CERTIFICATES</span>
+      </div>
+    </div>
+    <button class="hero-enter" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+      <span class="enter-bracket">[</span>
+      ENTER PORTFOLIO
+      <span class="enter-bracket">]</span>
+      <span class="enter-arrow">↓</span>
+    </button>
+  </div>
+
+  <div class="hero-corner top-left"></div>
+  <div class="hero-corner top-right"></div>
+  <div class="hero-corner bot-left"></div>
+  <div class="hero-corner bot-right"></div>
+  <div class="hero-crosshair"></div>
+</section>
+
+<!-- ── ABOUT ───────────────────────────────────────────────────────── -->
+<section class="section" id="about">
+  <div class="section-header">
+    <span class="sec-num">01</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">AGENT PROFILE</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <div class="photo-frame">
+        <div class="photo-corner tl"></div>
+        <div class="photo-corner tr"></div>
+        <div class="photo-corner bl"></div>
+        <div class="photo-corner br"></div>
+        <img src="" alt="Yash Mhatre" id="aboutPhoto" class="about-photo" onerror="this.style.display='none'">
+        <div class="photo-placeholder" id="photoPlaceholder">
+          <span class="placeholder-icon">◈</span>
+          <span class="placeholder-text">YM</span>
+        </div>
+        <div class="photo-scan-line"></div>
+      </div>
+      <div class="photo-info">
+        <div class="info-row"><span class="info-key">AGENT</span><span class="info-val" id="aboutName">—</span></div>
+        <div class="info-row"><span class="info-key">ROLE</span><span class="info-val" id="aboutTitle">—</span></div>
+        <div class="info-row"><span class="info-key">SECTOR</span><span class="info-val" id="aboutLocation">—</span></div>
+      </div>
+    </div>
+    <div class="about-text-wrap reveal">
+      <div class="about-bio-box">
+        <div class="bio-label">// BIO_DATA.TXT</div>
+        <p class="about-bio" id="aboutBio">Loading...</p>
+      </div>
+      <div class="about-tags" id="aboutTags"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ────────────────────────────────────────────────────── -->
+<section class="section section-dark" id="education">
+  <div class="section-header">
+    <span class="sec-num">02</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">TRAINING RECORDS</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="edu-grid">
+    <div class="edu-card reveal" id="eduSchool">
+      <div class="edu-card-badge">SECONDARY</div>
+      <div class="edu-icon">◉</div>
+      <h3 class="edu-name" id="schoolName">—</h3>
+      <div class="edu-detail"><span class="edu-key">BOARD</span><span class="edu-val" id="schoolBoard">—</span></div>
+      <div class="edu-detail"><span class="edu-key">YEAR</span><span class="edu-val" id="schoolYear">—</span></div>
+      <div class="edu-score-wrap">
+        <div class="edu-score-label">SCORE</div>
+        <div class="edu-score" id="schoolPct">—</div>
+        <div class="edu-score-unit">%</div>
+      </div>
+      <div class="edu-bar-wrap"><div class="edu-bar" id="schoolBar"></div></div>
+    </div>
+    <div class="edu-connector">
+      <div class="conn-line"></div>
+      <div class="conn-node">▶</div>
+    </div>
+    <div class="edu-card reveal" id="eduCollege">
+      <div class="edu-card-badge primary-badge">TERTIARY</div>
+      <div class="edu-icon">◈</div>
+      <h3 class="edu-name" id="collegeName">—</h3>
+      <div class="edu-detail"><span class="edu-key">PROGRAM</span><span class="edu-val" id="collegeCourse">—</span></div>
+      <div class="edu-detail"><span class="edu-key">BOARD</span><span class="edu-val" id="collegeBoard">—</span></div>
+      <div class="edu-detail"><span class="edu-key">DURATION</span><span class="edu-val" id="collegeDuration">—</span></div>
+      <div class="edu-active-tag">◆ ACTIVE</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SEMESTERS ────────────────────────────────────────────────────── -->
+<section class="section" id="semesters">
+  <div class="section-header">
+    <span class="sec-num">03</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">PERFORMANCE METRICS</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="sem-grid" id="semGrid"></div>
+</section>
+
+<!-- ── SKILLS ──────────────────────────────────────────────────────── -->
+<section class="section section-dark" id="skills">
+  <div class="section-header">
+    <span class="sec-num">04</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">ABILITY SET</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+<!-- ── PROJECTS ────────────────────────────────────────────────────── -->
+<section class="section" id="projects">
+  <div class="section-header">
+    <span class="sec-num">05</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">MISSION LOGS</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="project-filters" id="projectFilters"></div>
+  <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+<!-- ── CERTIFICATES ─────────────────────────────────────────────────── -->
+<section class="section section-dark" id="certificates">
+  <div class="section-header">
+    <span class="sec-num">06</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">CLEARANCE CREDENTIALS</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="certs-grid" id="certsGrid"></div>
+</section>
+
+<!-- ── TIMELINE ────────────────────────────────────────────────────── -->
+<section class="section" id="timeline">
+  <div class="section-header">
+    <span class="sec-num">07</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">MISSION TIMELINE</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="timeline-wrap" id="timelineWrap"></div>
+</section>
+
+<!-- ── CONTACT ─────────────────────────────────────────────────────── -->
+<section class="section section-dark" id="contact">
+  <div class="section-header">
+    <span class="sec-num">08</span>
+    <span class="sec-slash">//</span>
+    <span class="sec-title">ESTABLISH COMMS</span>
+    <span class="sec-line"></span>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-info-header">// TRANSMISSION CHANNELS</div>
+      <div class="contact-links" id="contactLinks"></div>
+      <a href="" class="resume-btn" id="resumeBtn" target="_blank">
+        <span class="resume-icon">⬇</span>
+        DOWNLOAD RESUME
+      </a>
+    </div>
+    <div class="contact-form-wrap reveal">
+      <div class="contact-form-header">// SEND MESSAGE</div>
+      <form class="contact-form" onsubmit="handleContactSubmit(event)">
+        <div class="form-field">
+          <label class="form-label">IDENTIFIER</label>
+          <input type="text" placeholder="Your Name" class="form-input" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label">TRANSMISSION_ADDR</label>
+          <input type="email" placeholder="your@email.com" class="form-input" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label">MESSAGE_PAYLOAD</label>
+          <textarea placeholder="Your message..." class="form-textarea" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          <span>[</span> TRANSMIT <span>]</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-content">
+    <span class="footer-text">// YASH KALPESH MHATRE — AI & ML DEVELOPER //</span>
+    <span class="footer-copy">© 2025 — ALL SYSTEMS OPERATIONAL</span>
+  </div>
+</footer>
+
+<!-- ── PROJECT MODAL ────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="projectModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('projectModal')">✕</button>
+    <div class="modal-content" id="projectModalContent"></div>
+  </div>
+</div>
+
+<!-- ── CERT MODAL ────────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="certModal">
+  <div class="modal-box modal-cert">
+    <button class="modal-close" onclick="closeModal('certModal')">✕</button>
+    <div class="modal-content" id="certModalContent"></div>
+  </div>
+</div>
+
+<!-- ── TOAST ─────────────────────────────────────────────────────────── -->
+<div class="toast" id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

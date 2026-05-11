@@ -1,0 +1,145 @@
+{
+  "about": {
+    "name": "Yash Kalpesh Mhatre",
+    "title": "AI & Machine Learning Developer",
+    "bio": "Passionate AI & ML student building intelligent systems that bridge the gap between human cognition and machine precision. Focused on deep learning, computer vision, and deploying scalable ML pipelines. Currently pursuing advanced studies in Artificial Intelligence with a drive to solve real-world problems through data-driven innovation.",
+    "location": "Mumbai, India",
+    "photo": "",
+    "tags": ["Python", "TensorFlow", "PyTorch", "scikit-learn", "OpenCV", "NumPy", "Pandas", "Deep Learning", "NLP", "Computer Vision"]
+  },
+  "education": {
+    "school": {
+      "name": "Guru Nanak English High School",
+      "board": "Maharashtra State Board",
+      "year": "2022",
+      "percentage": "92.40"
+    },
+    "college": {
+      "name": "Vidyalankar Polytechnic",
+      "course": "Diploma in Artificial Intelligence & Machine Learning",
+      "board": "Maharashtra State Board of Technical Education",
+      "duration": "2022 – 2025"
+    }
+  },
+  "semesters": [
+    { "id": "s1", "semester": 1, "percentage": "78.50", "status": "Pass" },
+    { "id": "s2", "semester": 2, "percentage": "81.20", "status": "Pass" },
+    { "id": "s3", "semester": 3, "percentage": "85.60", "status": "Pass" },
+    { "id": "s4", "semester": 4, "percentage": "88.00", "status": "Pass" },
+    { "id": "s5", "semester": 5, "percentage": "91.30", "status": "Pass" }
+  ],
+  "skills": [
+    { "id": "sk1", "name": "Python", "icon": "🐍" },
+    { "id": "sk2", "name": "Machine Learning", "icon": "🤖" },
+    { "id": "sk3", "name": "Deep Learning", "icon": "🧠" },
+    { "id": "sk4", "name": "TensorFlow", "icon": "⚡" },
+    { "id": "sk5", "name": "PyTorch", "icon": "🔥" },
+    { "id": "sk6", "name": "OpenCV", "icon": "👁️" },
+    { "id": "sk7", "name": "NLP", "icon": "💬" },
+    { "id": "sk8", "name": "HTML & CSS", "icon": "🌐" },
+    { "id": "sk9", "name": "JavaScript", "icon": "⚙️" },
+    { "id": "sk10", "name": "C Programming", "icon": "💻" },
+    { "id": "sk11", "name": "SQL", "icon": "🗄️" },
+    { "id": "sk12", "name": "Git & GitHub", "icon": "🔗" }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Real-Time Object Detection System",
+      "description": "A high-performance object detection pipeline using YOLOv8 and OpenCV. Processes live camera feeds with sub-100ms latency, classifying 80+ object categories with 94% accuracy. Deployed on edge devices with optimized inference.",
+      "tech": ["Python", "YOLOv8", "OpenCV", "TensorFlow", "CUDA"],
+      "github": "https://github.com/yash-mhatre",
+      "demo": "",
+      "image": "",
+      "files": [],
+      "category": "Computer Vision"
+    },
+    {
+      "id": "p2",
+      "title": "Sentiment Analysis Engine",
+      "description": "End-to-end NLP pipeline for multi-class sentiment classification. Fine-tuned BERT model on custom dataset achieving 96% F1-score. REST API deployed via FastAPI with real-time inference capabilities.",
+      "tech": ["Python", "BERT", "HuggingFace", "FastAPI", "PyTorch"],
+      "github": "https://github.com/yash-mhatre",
+      "demo": "",
+      "image": "",
+      "files": [],
+      "category": "NLP"
+    },
+    {
+      "id": "p3",
+      "title": "Predictive Analytics Dashboard",
+      "description": "Machine learning-powered dashboard for business intelligence. Implements time-series forecasting with LSTM networks, anomaly detection, and automated report generation. Interactive visualizations built with Plotly.",
+      "tech": ["Python", "LSTM", "Plotly", "Pandas", "scikit-learn"],
+      "github": "https://github.com/yash-mhatre",
+      "demo": "",
+      "image": "",
+      "files": [],
+      "category": "Data Science"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "c1",
+      "title": "Machine Learning Specialization",
+      "issuer": "DeepLearning.AI / Coursera",
+      "year": "2024",
+      "image": "",
+      "pdf": ""
+    },
+    {
+      "id": "c2",
+      "title": "Python for Data Science",
+      "issuer": "IBM / Coursera",
+      "year": "2023",
+      "image": "",
+      "pdf": ""
+    },
+    {
+      "id": "c3",
+      "title": "TensorFlow Developer Certificate",
+      "issuer": "Google",
+      "year": "2024",
+      "image": "",
+      "pdf": ""
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "year": "2022",
+      "title": "Began AI & ML Journey",
+      "description": "Enrolled in Diploma in Artificial Intelligence & Machine Learning at Vidyalankar Polytechnic. Discovered deep passion for intelligent systems and neural networks."
+    },
+    {
+      "id": "t2",
+      "year": "2023",
+      "title": "First ML Models Deployed",
+      "description": "Built and deployed first end-to-end machine learning models. Completed Python for Data Science certification. Started contributing to open-source ML projects."
+    },
+    {
+      "id": "t3",
+      "year": "2024",
+      "title": "Advanced Deep Learning",
+      "description": "Mastered computer vision with OpenCV and object detection pipelines. Completed Machine Learning Specialization. Built real-time inference systems on edge devices."
+    },
+    {
+      "id": "t4",
+      "year": "2025",
+      "title": "Portfolio & Research Projects",
+      "description": "Developed professional-grade AI projects including sentiment analysis engines and predictive dashboards. Building strong GitHub portfolio for global opportunities."
+    },
+    {
+      "id": "t5",
+      "year": "2026",
+      "title": "MS Abroad — Target",
+      "description": "Preparing applications for Master of Science in Artificial Intelligence at top universities in USA, Canada, and Europe. GRE prep and research paper submissions underway."
+    }
+  ],
+  "contact": {
+    "email": "yash.mhatre@email.com",
+    "github": "https://github.com/yash-mhatre",
+    "linkedin": "https://linkedin.com/in/yash-mhatre",
+    "phone": "+91 98765 43210",
+    "resume": ""
+  }
+}
