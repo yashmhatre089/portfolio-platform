@@ -23,11 +23,7 @@ npm start
 
 ---
 
-## DEFAULT CREDENTIALS
-```
-Username: yash
-Password: Valorant@2025
-```
+
 
 ⚠️ Change password in `server/server.js` by updating `ADMIN_PASSWORD_HASH`
 
